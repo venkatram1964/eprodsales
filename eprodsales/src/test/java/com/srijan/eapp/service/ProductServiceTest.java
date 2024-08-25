@@ -35,5 +35,10 @@ class ProductServiceTest {
 		List<Product> prods = productService.getAllProducts();
 		assertTrue(prods.size() > 0);
 	}
+	
+	@Test
+	void updateTest() {
+		
+	}
 
 }
